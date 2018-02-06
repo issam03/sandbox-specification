@@ -1,12 +1,11 @@
-package metier;
+package metier.RegleNotification;
 
 import domain.RegleNotification;
-import utils.DefaultSpecification;
 
 /**
  * Created by issam on 06/02/18.
  */
-public class NotificationValideSpecification extends DefaultSpecification<RegleNotification> {
+public class NotificationValideSpecification extends RegleNotificationSpecification {
 
     private final NotificationBienFormeSpecification notificationBienFormeSpecification = new NotificationBienFormeSpecification();
     private final TypeValideSpecification typeValideSpecification = new TypeValideSpecification();
