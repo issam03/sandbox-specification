@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by issam on 06/02/18.
+ * Implementation par defaut de l'interface Specification. Permet en outre de factoriser la creation
+ * des specification "utilitaire" et la gestion des liste de specification
  */
 public abstract class DefaultSpecification<T> implements Specification<T> {
 

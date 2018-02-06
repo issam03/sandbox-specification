@@ -4,7 +4,7 @@ import domain.RegleNotification;
 import utils.DefaultSpecification;
 
 /**
- * Created by issam on 06/02/18.
+ * Doit être implementé par toutes les specification application sur l'object RegleNotification.
  */
 abstract class RegleNotificationSpecification extends DefaultSpecification<RegleNotification> {
 }
